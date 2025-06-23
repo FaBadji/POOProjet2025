@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>952</width>
+    <height>384</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>300</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:green;</string>
+    </property>
+    <property name="text">
+     <string>suiv</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>300</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:green;</string>
+    </property>
+    <property name="text">
+     <string>prec</string>
+    </property>
+   </widget>
+   <widget class="QTableView" name="tableView">
+    <property name="geometry">
+     <rect>
+      <x>75</x>
+      <y>30</y>
+      <width>571</width>
+      <height>192</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>952</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuMenu">
+    <property name="title">
+     <string>Base</string>
+    </property>
+    <addaction name="actionCharger"/>
+    <addaction name="actionAfficher_2"/>
+    <addaction name="actionTaille"/>
+    <addaction name="actionSauvegarder"/>
+    <addaction name="actionQuitter"/>
+   </widget>
+   <widget class="QMenu" name="menuMenu_2">
+    <property name="title">
+     <string>Maison</string>
+    </property>
+    <addaction name="actionRechercher_2"/>
+    <addaction name="actionInserer"/>
+    <addaction name="actionSupprimer_2"/>
+   </widget>
+   <widget class="QMenu" name="menuQuitter">
+    <property name="title">
+     <string>FonctionHachage</string>
+    </property>
+    <addaction name="actionF1"/>
+    <addaction name="actionF2"/>
+    <addaction name="actionF3"/>
+    <addaction name="actionSan"/>
+   </widget>
+   <widget class="QMenu" name="menuCourbe_de_comparaison">
+    <property name="title">
+     <string>Courbes de comparaison</string>
+    </property>
+    <addaction name="actionHachage_Sans_hachage"/>
+    <addaction name="actionHachage_fi_hachage_fj"/>
+   </widget>
+   <widget class="QMenu" name="menuAide">
+    <property name="title">
+     <string>Aide</string>
+    </property>
+   </widget>
+   <addaction name="menuMenu"/>
+   <addaction name="menuMenu_2"/>
+   <addaction name="menuQuitter"/>
+   <addaction name="menuCourbe_de_comparaison"/>
+   <addaction name="menuAide"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionCharger">
+   <property name="text">
+    <string>Charger</string>
+   </property>
+  </action>
+  <action name="actionAfficher_2">
+   <property name="text">
+    <string>Afficher</string>
+   </property>
+  </action>
+  <action name="actionTaille">
+   <property name="text">
+    <string>Taille</string>
+   </property>
+  </action>
+  <action name="actionSauvegarder">
+   <property name="text">
+    <string>Sauvegarder</string>
+   </property>
+  </action>
+  <action name="actionQuitter">
+   <property name="text">
+    <string>Quitter</string>
+   </property>
+  </action>
+  <action name="actionRechercher_2">
+   <property name="text">
+    <string>Rechercher</string>
+   </property>
+  </action>
+  <action name="actionInserer">
+   <property name="text">
+    <string>Inserer</string>
+   </property>
+  </action>
+  <action name="actionSupprimer_2">
+   <property name="text">
+    <string>Supprimer</string>
+   </property>
+  </action>
+  <action name="actionF1">
+   <property name="text">
+    <string>f1</string>
+   </property>
+  </action>
+  <action name="actionF2">
+   <property name="text">
+    <string>f2</string>
+   </property>
+  </action>
+  <action name="actionF3">
+   <property name="text">
+    <string>f3</string>
+   </property>
+  </action>
+  <action name="actionSan">
+   <property name="text">
+    <string>SansHash</string>
+   </property>
+  </action>
+  <action name="actionHachage_Sans_hachage">
+   <property name="text">
+    <string>hachage/Sans hachage</string>
+   </property>
+  </action>
+  <action name="actionHachage_fi_hachage_fj">
+   <property name="text">
+    <string>hachage (fi)/ hachage (fj)</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
